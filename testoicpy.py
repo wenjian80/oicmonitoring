@@ -59,7 +59,7 @@ for instance in instanceArray:
         with open('timetaken.csv','a') as fd:            
             fd.write(instance + "|" + str(totalTimeTaken) + "|" + row + "\n")
             
-    totalTimeTaken=0
+	totalTimeTaken=0
 	i = 0
 	printArray = []
                 
