@@ -43,13 +43,13 @@ for instance in instanceArray:
         date_time_str = list['timestamp']    
         
         if (i ==0) :    
-            printArray.append(list['timestamp'] + "|" + list['message'] + "|TimeTaken=0")
+            printArray.append(list['timestamp'] + "|" + list['message'].strip('\n').replace('\n', '') + "|TimeTaken=0")
         else :        
             diff = datetime.datetime.strptime(date_time_str, datetimeFormat)\
                    - datetime.datetime.strptime(previous_date_time_str, datetimeFormat)
             diffInMillSeconds = diff.microseconds/1000
             totalTimeTaken = diffInMillSeconds + totalTimeTaken
-            printArray.append(list['timestamp'] + "|" + list['message'] + "|TimeTaken=" + str(diffInMillSeconds))
+            printArray.append(list['timestamp'] + "|" + list['message'].strip('\n').replace('\n', '') + "|TimeTaken=" + str(diffInMillSeconds))
            
         i = i + 1
         previous_date_time_str = date_time_str
@@ -59,7 +59,6 @@ for instance in instanceArray:
         with open('timetaken.csv','a') as fd:            
             fd.write(instance + "|" + str(totalTimeTaken) + "|" + row + "\n")
             
-	totalTimeTaken=0
-	i = 0
-	printArray = []
-                
+    totalTimeTaken=0
+    i = 0
+    printArray = []
