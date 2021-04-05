@@ -1,0 +1,36 @@
+61600001|1472.0|Mon Apr 05 02:02:31.890 AM UTC 2021|Message received: Instance created|TimeTaken=0
+61600001|1472.0|Mon Apr 05 02:02:39.553 AM UTC 2021|<span class="tracking_payload_first">Message</span> processed by <i>Trigger</i> <b>TestThaiOIC</b>
+|TimeTaken=663.0
+61600001|1472.0|Mon Apr 05 02:02:39.845 AM UTC 2021||TimeTaken=292.0
+61600001|1472.0|Mon Apr 05 02:02:39.903 AM UTC 2021|Data Mapping completed from <span class="tracking_payload_first">Message</span> to <span class="tracking_payload_second">Message</span>|TimeTaken=58.0
+61600001|1472.0|Mon Apr 05 02:02:39.925 AM UTC 2021||TimeTaken=22.0
+61600001|1472.0|Mon Apr 05 02:02:39.987 AM UTC 2021||TimeTaken=62.0
+61600001|1472.0|Mon Apr 05 02:02:39.991 AM UTC 2021|Message received by <i>Invoke</i> <b>testCallThaiEnd</b>
+|TimeTaken=4.0
+61600001|1472.0|Mon Apr 05 02:02:40.014 AM UTC 2021|<span class="tracking_payload">Message</span> sent to testCallThaiEnd|TimeTaken=23.0
+61600001|1472.0|Mon Apr 05 02:02:41.205 AM UTC 2021|Request: 'Call External REST API: Post /testEncoding/' completed successfully in 267 ms - JSON:  /testEncoding/|TimeTaken=191.0
+61600001|1472.0|Mon Apr 05 02:02:41.256 AM UTC 2021|<span class="tracking_payload">Message</span> received from testCallThaiEnd|TimeTaken=51.0
+61600001|1472.0|Mon Apr 05 02:02:41.264 AM UTC 2021|Data Mapping completed from <span class="tracking_payload_first">Message</span> to <span class="tracking_payload_second">Message</span>|TimeTaken=8.0
+61600001|1472.0|Mon Apr 05 02:02:41.283 AM UTC 2021||TimeTaken=19.0
+61600001|1472.0|Mon Apr 05 02:02:41.314 AM UTC 2021||TimeTaken=31.0
+61600001|1472.0|Mon Apr 05 02:02:41.341 AM UTC 2021|<i>Reply</i> to <b>TestThaiOIC</b> completed
+with <span class="tracking_payload_first">Message</span>|TimeTaken=27.0
+61600001|1472.0|Mon Apr 05 02:02:41.362 AM UTC 2021||TimeTaken=21.0
+63200003|699.0|Mon Apr 05 02:02:29.729 AM UTC 2021|Message received: Instance created|TimeTaken=0
+63200003|699.0|Mon Apr 05 02:02:30.022 AM UTC 2021|<span class="tracking_payload_first">Message</span> processed by <i>Trigger</i> <b>TestThaiOIC</b>
+|TimeTaken=293.0
+63200003|699.0|Mon Apr 05 02:02:30.047 AM UTC 2021||TimeTaken=25.0
+63200003|699.0|Mon Apr 05 02:02:30.064 AM UTC 2021|Data Mapping completed from <span class="tracking_payload_first">Message</span> to <span class="tracking_payload_second">Message</span>|TimeTaken=17.0
+63200003|699.0|Mon Apr 05 02:02:30.082 AM UTC 2021||TimeTaken=18.0
+63200003|699.0|Mon Apr 05 02:02:30.101 AM UTC 2021||TimeTaken=19.0
+63200003|699.0|Mon Apr 05 02:02:30.106 AM UTC 2021|Message received by <i>Invoke</i> <b>testCallThaiEnd</b>
+|TimeTaken=5.0
+63200003|699.0|Mon Apr 05 02:02:30.125 AM UTC 2021|<span class="tracking_payload">Message</span> sent to testCallThaiEnd|TimeTaken=19.0
+63200003|699.0|Mon Apr 05 02:02:30.334 AM UTC 2021|Request: 'Call External REST API: Post /testEncoding/' completed successfully in 179 ms - JSON:  /testEncoding/|TimeTaken=209.0
+63200003|699.0|Mon Apr 05 02:02:30.343 AM UTC 2021|<span class="tracking_payload">Message</span> received from testCallThaiEnd|TimeTaken=9.0
+63200003|699.0|Mon Apr 05 02:02:30.348 AM UTC 2021|Data Mapping completed from <span class="tracking_payload_first">Message</span> to <span class="tracking_payload_second">Message</span>|TimeTaken=5.0
+63200003|699.0|Mon Apr 05 02:02:30.368 AM UTC 2021||TimeTaken=20.0
+63200003|699.0|Mon Apr 05 02:02:30.388 AM UTC 2021||TimeTaken=20.0
+63200003|699.0|Mon Apr 05 02:02:30.403 AM UTC 2021|<i>Reply</i> to <b>TestThaiOIC</b> completed
+with <span class="tracking_payload_first">Message</span>|TimeTaken=15.0
+63200003|699.0|Mon Apr 05 02:02:30.428 AM UTC 2021||TimeTaken=25.0
