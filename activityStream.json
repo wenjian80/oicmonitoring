@@ -1,0 +1,878 @@
+{
+    "ascList": [
+        {
+            "count": "",
+            "endTimestamp": "Tue Apr 06 06:41:31.227 AM UTC 2021",
+            "errorMileStone": false,
+            "identifier": "stream-0",
+            "isChild": false,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "Message received: Instance created",
+            "mileStone": "ST",
+            "modifiedDescTimestamp": "06:38:22.167 AM",
+            "modifiedTimestamp": "Tue Apr 06 06:38:22.167 AM UTC 2021",
+            "payloadExists": false,
+            "timestamp": "Tue Apr 06 06:38:22.167 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.167+0000",
+            "type": ""
+        },
+        {
+            "count": "",
+            "endTimestamp": "Tue Apr 06 06:41:31.227 AM UTC 2021",
+            "errorMileStone": false,
+            "identifier": "stream-1",
+            "isChild": false,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "<span class=\"tracking_payload_first\">Message</span> processed by <i>Trigger</i> <b>TestThaiOIC</b>\n",
+            "mileStone": "r0",
+            "modifiedDescTimestamp": "06:38:22.230 AM",
+            "modifiedTimestamp": "06:38:22.230 AM",
+            "payloadExists": false,
+            "timestamp": "Tue Apr 06 06:38:22.230 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.230+0000",
+            "type": ""
+        },
+        {
+            "action": "Trigger",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-2",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "",
+            "mileStone": "r0",
+            "modifiedDescTimestamp": "06:38:22.259 AM",
+            "modifiedTimestamp": "06:38:22.259 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.259 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.259+0000",
+            "type": ""
+        },
+        {
+            "count": "",
+            "endTimestamp": "Tue Apr 06 06:41:31.227 AM UTC 2021",
+            "errorMileStone": false,
+            "identifier": "stream-3",
+            "isChild": false,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "Data Mapping completed from <span class=\"tracking_payload_first\">Message</span> to <span class=\"tracking_payload_second\">Message</span>",
+            "mileStone": "m1",
+            "modifiedDescTimestamp": "06:38:22.267 AM",
+            "modifiedTimestamp": "06:38:22.267 AM",
+            "payloadExists": false,
+            "timestamp": "Tue Apr 06 06:38:22.267 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.267+0000",
+            "type": ""
+        },
+        {
+            "action": "Map",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-4",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "",
+            "mileStone": "m1",
+            "modifiedDescTimestamp": "06:38:22.296 AM",
+            "modifiedTimestamp": "06:38:22.296 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.296 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.296+0000",
+            "type": ""
+        },
+        {
+            "action": "Map",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-5",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "",
+            "mileStone": "m1",
+            "modifiedDescTimestamp": "06:38:22.298 AM",
+            "modifiedTimestamp": "06:38:22.298 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.298 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.298+0000",
+            "type": ""
+        },
+        {
+            "count": "",
+            "endTimestamp": "Tue Apr 06 06:41:31.227 AM UTC 2021",
+            "errorMileStone": false,
+            "identifier": "stream-6",
+            "isChild": false,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "Message received by <i>Invoke</i> <b>testCallThaiEnd</b>\n",
+            "mileStone": "i0",
+            "modifiedDescTimestamp": "06:38:22.300 AM",
+            "modifiedTimestamp": "06:38:22.300 AM",
+            "payloadExists": false,
+            "timestamp": "Tue Apr 06 06:38:22.300 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.300+0000",
+            "type": ""
+        },
+        {
+            "action": "Invoke",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-7",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "<span class=\"tracking_payload\">Message</span> sent to testCallThaiEnd",
+            "mileStone": "i0",
+            "modifiedDescTimestamp": "06:38:22.325 AM",
+            "modifiedTimestamp": "06:38:22.325 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.325 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.325+0000",
+            "type": ""
+        },
+        {
+            "action": "Invoke",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-8",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "Request: 'Call External REST API: Post /testEncoding/' completed successfully in 232 ms - JSON:  /testEncoding/",
+            "mileStone": "i0",
+            "modifiedDescTimestamp": "06:38:22.626 AM",
+            "modifiedTimestamp": "06:38:22.626 AM",
+            "payloadExists": false,
+            "source": "Adapter",
+            "timestamp": "Tue Apr 06 06:38:22.626 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.626+0000",
+            "type": ""
+        },
+        {
+            "action": "Invoke",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-9",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "<span class=\"tracking_payload\">Message</span> received from testCallThaiEnd",
+            "mileStone": "i0",
+            "modifiedDescTimestamp": "06:38:22.636 AM",
+            "modifiedTimestamp": "06:38:22.636 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.636 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.636+0000",
+            "type": ""
+        },
+        {
+            "count": "",
+            "endTimestamp": "Tue Apr 06 06:41:31.227 AM UTC 2021",
+            "errorMileStone": false,
+            "identifier": "stream-10",
+            "isChild": false,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "Data Mapping completed from <span class=\"tracking_payload_first\">Message</span> to <span class=\"tracking_payload_second\">Message</span>",
+            "mileStone": "m0",
+            "modifiedDescTimestamp": "06:38:22.640 AM",
+            "modifiedTimestamp": "06:38:22.640 AM",
+            "payloadExists": false,
+            "timestamp": "Tue Apr 06 06:38:22.640 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.640+0000",
+            "type": ""
+        },
+        {
+            "action": "Map",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-11",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "",
+            "mileStone": "m0",
+            "modifiedDescTimestamp": "06:38:22.658 AM",
+            "modifiedTimestamp": "06:38:22.658 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.658 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.658+0000",
+            "type": ""
+        },
+        {
+            "action": "Map",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-12",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "",
+            "mileStone": "m0",
+            "modifiedDescTimestamp": "06:38:22.660 AM",
+            "modifiedTimestamp": "06:38:22.660 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.660 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.660+0000",
+            "type": ""
+        },
+        {
+            "count": "",
+            "endTimestamp": "Tue Apr 06 06:41:31.227 AM UTC 2021",
+            "errorMileStone": false,
+            "identifier": "stream-13",
+            "isChild": false,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": true,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "<i>Reply</i> to <b>TestThaiOIC</b> completed\nwith <span class=\"tracking_payload_first\">Message</span>",
+            "mileStone": "y0",
+            "modifiedDescTimestamp": "Tue Apr 06 06:38:22.666 AM UTC 2021",
+            "modifiedTimestamp": "06:38:22.666 AM",
+            "payloadExists": false,
+            "timestamp": "Tue Apr 06 06:38:22.666 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.666+0000",
+            "type": ""
+        },
+        {
+            "action": "Return",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-14",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "",
+            "mileStone": "y0",
+            "modifiedDescTimestamp": "06:38:22.703 AM",
+            "modifiedTimestamp": "06:38:22.703 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.703 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.703+0000",
+            "type": ""
+        }
+    ],
+    "descList": [
+        {
+            "count": "",
+            "endTimestamp": "Tue Apr 06 06:41:31.227 AM UTC 2021",
+            "errorMileStone": false,
+            "identifier": "stream-13",
+            "isChild": false,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": true,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "<i>Reply</i> to <b>TestThaiOIC</b> completed\nwith <span class=\"tracking_payload_first\">Message</span>",
+            "mileStone": "y0",
+            "modifiedDescTimestamp": "Tue Apr 06 06:38:22.666 AM UTC 2021",
+            "modifiedTimestamp": "06:38:22.666 AM",
+            "payloadExists": false,
+            "timestamp": "Tue Apr 06 06:38:22.666 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.666+0000",
+            "type": ""
+        },
+        {
+            "action": "Return",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-14",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "",
+            "mileStone": "y0",
+            "modifiedDescTimestamp": "06:38:22.703 AM",
+            "modifiedTimestamp": "06:38:22.703 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.703 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.703+0000",
+            "type": ""
+        },
+        {
+            "count": "",
+            "endTimestamp": "Tue Apr 06 06:41:31.227 AM UTC 2021",
+            "errorMileStone": false,
+            "identifier": "stream-10",
+            "isChild": false,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "Data Mapping completed from <span class=\"tracking_payload_first\">Message</span> to <span class=\"tracking_payload_second\">Message</span>",
+            "mileStone": "m0",
+            "modifiedDescTimestamp": "06:38:22.640 AM",
+            "modifiedTimestamp": "06:38:22.640 AM",
+            "payloadExists": false,
+            "timestamp": "Tue Apr 06 06:38:22.640 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.640+0000",
+            "type": ""
+        },
+        {
+            "action": "Map",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-11",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "",
+            "mileStone": "m0",
+            "modifiedDescTimestamp": "06:38:22.658 AM",
+            "modifiedTimestamp": "06:38:22.658 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.658 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.658+0000",
+            "type": ""
+        },
+        {
+            "action": "Map",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-12",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "",
+            "mileStone": "m0",
+            "modifiedDescTimestamp": "06:38:22.660 AM",
+            "modifiedTimestamp": "06:38:22.660 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.660 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.660+0000",
+            "type": ""
+        },
+        {
+            "count": "",
+            "endTimestamp": "Tue Apr 06 06:41:31.227 AM UTC 2021",
+            "errorMileStone": false,
+            "identifier": "stream-6",
+            "isChild": false,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "Message received by <i>Invoke</i> <b>testCallThaiEnd</b>\n",
+            "mileStone": "i0",
+            "modifiedDescTimestamp": "06:38:22.300 AM",
+            "modifiedTimestamp": "06:38:22.300 AM",
+            "payloadExists": false,
+            "timestamp": "Tue Apr 06 06:38:22.300 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.300+0000",
+            "type": ""
+        },
+        {
+            "action": "Invoke",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-7",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "<span class=\"tracking_payload\">Message</span> sent to testCallThaiEnd",
+            "mileStone": "i0",
+            "modifiedDescTimestamp": "06:38:22.325 AM",
+            "modifiedTimestamp": "06:38:22.325 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.325 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.325+0000",
+            "type": ""
+        },
+        {
+            "action": "Invoke",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-8",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "Request: 'Call External REST API: Post /testEncoding/' completed successfully in 232 ms - JSON:  /testEncoding/",
+            "mileStone": "i0",
+            "modifiedDescTimestamp": "06:38:22.626 AM",
+            "modifiedTimestamp": "06:38:22.626 AM",
+            "payloadExists": false,
+            "source": "Adapter",
+            "timestamp": "Tue Apr 06 06:38:22.626 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.626+0000",
+            "type": ""
+        },
+        {
+            "action": "Invoke",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-9",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "<span class=\"tracking_payload\">Message</span> received from testCallThaiEnd",
+            "mileStone": "i0",
+            "modifiedDescTimestamp": "06:38:22.636 AM",
+            "modifiedTimestamp": "06:38:22.636 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.636 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.636+0000",
+            "type": ""
+        },
+        {
+            "count": "",
+            "endTimestamp": "Tue Apr 06 06:41:31.227 AM UTC 2021",
+            "errorMileStone": false,
+            "identifier": "stream-3",
+            "isChild": false,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "Data Mapping completed from <span class=\"tracking_payload_first\">Message</span> to <span class=\"tracking_payload_second\">Message</span>",
+            "mileStone": "m1",
+            "modifiedDescTimestamp": "06:38:22.267 AM",
+            "modifiedTimestamp": "06:38:22.267 AM",
+            "payloadExists": false,
+            "timestamp": "Tue Apr 06 06:38:22.267 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.267+0000",
+            "type": ""
+        },
+        {
+            "action": "Map",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-4",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "",
+            "mileStone": "m1",
+            "modifiedDescTimestamp": "06:38:22.296 AM",
+            "modifiedTimestamp": "06:38:22.296 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.296 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.296+0000",
+            "type": ""
+        },
+        {
+            "action": "Map",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-5",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "",
+            "mileStone": "m1",
+            "modifiedDescTimestamp": "06:38:22.298 AM",
+            "modifiedTimestamp": "06:38:22.298 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.298 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.298+0000",
+            "type": ""
+        },
+        {
+            "count": "",
+            "endTimestamp": "Tue Apr 06 06:41:31.227 AM UTC 2021",
+            "errorMileStone": false,
+            "identifier": "stream-1",
+            "isChild": false,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "<span class=\"tracking_payload_first\">Message</span> processed by <i>Trigger</i> <b>TestThaiOIC</b>\n",
+            "mileStone": "r0",
+            "modifiedDescTimestamp": "06:38:22.230 AM",
+            "modifiedTimestamp": "06:38:22.230 AM",
+            "payloadExists": false,
+            "timestamp": "Tue Apr 06 06:38:22.230 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.230+0000",
+            "type": ""
+        },
+        {
+            "action": "Trigger",
+            "count": "",
+            "errorMileStone": false,
+            "identifier": "stream-2",
+            "isChild": true,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "",
+            "mileStone": "r0",
+            "modifiedDescTimestamp": "06:38:22.259 AM",
+            "modifiedTimestamp": "06:38:22.259 AM",
+            "payloadData": "",
+            "payloadExists": true,
+            "timestamp": "Tue Apr 06 06:38:22.259 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.259+0000",
+            "type": ""
+        },
+        {
+            "count": "",
+            "endTimestamp": "Tue Apr 06 06:41:31.227 AM UTC 2021",
+            "errorMileStone": false,
+            "identifier": "stream-0",
+            "isChild": false,
+            "isExpanded": false,
+            "isExpandedError": false,
+            "isLastNode": false,
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+                    "rel": "canonical"
+                }
+            ],
+            "message": "Message received: Instance created",
+            "mileStone": "ST",
+            "modifiedDescTimestamp": "06:38:22.167 AM",
+            "modifiedTimestamp": "Tue Apr 06 06:38:22.167 AM UTC 2021",
+            "payloadExists": false,
+            "timestamp": "Tue Apr 06 06:38:22.167 AM UTC 2021",
+            "timestampUTC": "2021-04-06T06:38:22.167+0000",
+            "type": ""
+        }
+    ],
+    "errorMessage": "",
+    "errorMilestones": "",
+    "flowMilestones": ",ST,r0,m1,i0,m0,y0",
+    "id": "activityStream",
+    "links": [
+        {
+            "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+            "rel": "self"
+        },
+        {
+            "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004/activityStream",
+            "rel": "canonical"
+        }
+    ]
+}

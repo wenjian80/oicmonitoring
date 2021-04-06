@@ -1,0 +1,151 @@
+{
+    "dataFetchTime": "2021-04-06T06:39:45.460+0000",
+    "items": [
+        {
+            "creationDate": "2021-04-06T06:38:24.237+0000",
+            "date": "2021-04-06T06:38:24.608+0000",
+            "flowType": "Standalone",
+            "id": "63200004",
+            "integrationId": "TESTTHAIOIC",
+            "integrationName": "testThaiOIC",
+            "integrationVersion": "01.00.0000",
+            "isDataAccurate": true,
+            "isLitmusFlow": false,
+            "isLitmusSupported": true,
+            "lastTrackedTime": "2021-04-06T06:38:24.608+0000",
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/63200004",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/63200004",
+                    "rel": "canonical"
+                }
+            ],
+            "litmusResultStatus": "in progress",
+            "mepType": "MEP04",
+            "nonScheduleAsync": false,
+            "processingEndDate": "2021-04-06T06:38:24.608+0000",
+            "projectFound": true,
+            "receivedDate": "2021-04-06T06:38:24.290+0000",
+            "status": "COMPLETED",
+            "trackings": [
+                {
+                    "name": "ID",
+                    "primary": true,
+                    "value": "1"
+                },
+                {
+                    "name": "tracking_var_2",
+                    "primary": false
+                },
+                {
+                    "name": "tracking_var_3",
+                    "primary": false
+                }
+            ]
+        },
+        {
+            "creationDate": "2021-04-06T06:38:22.167+0000",
+            "date": "2021-04-06T06:38:22.666+0000",
+            "flowType": "Standalone",
+            "id": "64000004",
+            "integrationId": "TESTTHAIOIC",
+            "integrationName": "testThaiOIC",
+            "integrationVersion": "01.00.0000",
+            "isDataAccurate": true,
+            "isLitmusFlow": false,
+            "isLitmusSupported": true,
+            "lastTrackedTime": "2021-04-06T06:38:22.666+0000",
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/64000004",
+                    "rel": "canonical"
+                }
+            ],
+            "litmusResultStatus": "in progress",
+            "mepType": "MEP04",
+            "nonScheduleAsync": false,
+            "processingEndDate": "2021-04-06T06:38:22.666+0000",
+            "projectFound": true,
+            "receivedDate": "2021-04-06T06:38:22.230+0000",
+            "status": "COMPLETED",
+            "trackings": [
+                {
+                    "name": "ID",
+                    "primary": true,
+                    "value": "1"
+                },
+                {
+                    "name": "tracking_var_2",
+                    "primary": false
+                },
+                {
+                    "name": "tracking_var_3",
+                    "primary": false
+                }
+            ]
+        },
+        {
+            "creationDate": "2021-04-06T06:38:19.540+0000",
+            "date": "2021-04-06T06:38:20.327+0000",
+            "flowType": "Standalone",
+            "id": "63600004",
+            "integrationId": "TESTTHAIOIC",
+            "integrationName": "testThaiOIC",
+            "integrationVersion": "01.00.0000",
+            "isDataAccurate": true,
+            "isLitmusFlow": false,
+            "isLitmusSupported": true,
+            "lastTrackedTime": "2021-04-06T06:38:20.327+0000",
+            "links": [
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/63600004",
+                    "rel": "self"
+                },
+                {
+                    "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances/63600004",
+                    "rel": "canonical"
+                }
+            ],
+            "litmusResultStatus": "in progress",
+            "mepType": "MEP04",
+            "nonScheduleAsync": false,
+            "processingEndDate": "2021-04-06T06:38:20.327+0000",
+            "projectFound": true,
+            "receivedDate": "2021-04-06T06:38:19.692+0000",
+            "status": "COMPLETED",
+            "trackings": [
+                {
+                    "name": "ID",
+                    "primary": true,
+                    "value": "1"
+                },
+                {
+                    "name": "tracking_var_2",
+                    "primary": false
+                },
+                {
+                    "name": "tracking_var_3",
+                    "primary": false
+                }
+            ]
+        }
+    ],
+    "links": [
+        {
+            "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances",
+            "rel": "self"
+        },
+        {
+            "href": "https://aseanoic-apacaseanset01-ia.integration.ocp.oraclecloud.com:443/ic/api/integration/v1/monitoring/instances",
+            "rel": "canonical"
+        }
+    ],
+    "totalResults": 3
+}
