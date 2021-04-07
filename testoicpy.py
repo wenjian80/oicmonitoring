@@ -10,7 +10,7 @@ import time
 import datetime
 import requests
 import csv
-#import cx_Oracle
+import cx_Oracle
 
 #Set headers, witht he authroization. us epostman to get the Authorization
 my_headers  = {"Content-Type": "application/json", "Authorization": "Basic changeit", "X-HTTP-Method-Override": "PATCH"}
@@ -39,7 +39,7 @@ printArray = []
 with open('timetaken.csv','a') as fd:            
     fd.write("Instance Id|Total Time taken(millseconds)|Timestamp|Message|Time  Taken" + "\n")
 
-#Open connection to json db in oracle cloud
+#Open connection to json db in cloud
 #Refer to https://www.oracle.com/database/technologies/appdev/python/quickstartpython.html#copy
 #CREATE TABLE "ADMIN"."ACTIVITY_STREAM" 
 #   (	"INSTANCE_ID" NUMBER(*,0), 
@@ -50,15 +50,16 @@ with open('timetaken.csv','a') as fd:
 #   )
 #CREATE TABLE "ADMIN"."INSTANCE_PAYLOAD" 
 #   (	"INSTANCE_ID" NUMBER(*,0), 
-#	"PAYLOAD" CLOB COLLATE "USING_NLS_COMP"
+#	"PAYLOAD" CLOB COLLATE "USING_NLS_COMP",
+#    "TOTAL_TIME_TAKEN" NUMBER(*,0)
 #   )
 #alter table INSTANCE_PAYLOAD add constraint "ENSURE_JSON" check (PAYLOAD is json) enable
 #cx_Oracle.init_oracle_client(lib_dir=r"D:\instantclient_19_10")
-#connection = cx_Oracle.connect(user="ADMIN", password="changeit", dsn="changeit")
+#connection = cx_Oracle.connect(user="ADMIN", password="Welc0me1234#", dsn="jsdondb_tpurgent")
 #cursor = connection.cursor()
 
 #insertInstance = ('insert into INSTANCE_PAYLOAD '
-#        'values(:vinstanceId,:vPayload)')
+#        'values(:vinstanceId,:vPayload, :vTimetaken)')
 
 #insertSql = ('insert into ACTIVITY_STREAM '
 #        'values(:vinstanceId,:vTotalTimeTaken,:vTimestamp,:vMessage, :vTimetaken)')
@@ -71,8 +72,7 @@ for instance in instanceArray:
     response = requests.get(url, headers=my_headers)        
     data = response.json()
     mylists = data['ascList']
-    
-#    cursor.execute(insertInstance, [instance, str(data)])
+        
     
     for list in mylists:        
         date_time_str = list['timestamp']    
@@ -96,8 +96,9 @@ for instance in instanceArray:
         with open('timetaken.csv','a') as fd:            
             fd.write(instance + "|" + str(totalTimeTaken) + "|" + row + "\n")            
     
+#    cursor.execute(insertInstance, [instance, str(data), str(totalTimeTaken)])    
+#    cursor.execute(updateSql,[str(totalTimeTaken), instance])
     
-#    cursor.execute(updateSql,[instance,str(totalTimeTaken)])
     totalTimeTaken=0
     i = 0
     printArray = []
