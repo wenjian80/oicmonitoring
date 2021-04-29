@@ -10,7 +10,7 @@ import time
 import datetime
 import requests
 import csv
-import cx_Oracle
+#import cx_Oracle
 
 #Set headers, witht he authroization. us epostman to get the Authorization
 my_headers  = {"Content-Type": "application/json", "Authorization": "Basic changeit", "X-HTTP-Method-Override": "PATCH"}
@@ -58,13 +58,13 @@ with open('timetaken.csv','a') as fd:
 #connection = cx_Oracle.connect(user="ADMIN", password="Welc0me1234#", dsn="jsdondb_tpurgent")
 #cursor = connection.cursor()
 
-#insertInstance = ('insert into INSTANCE_PAYLOAD '
-#        'values(:vinstanceId,:vPayload, :vTimetaken)')
+insertInstance = ('insert into INSTANCE_PAYLOAD '
+        'values(:vinstanceId,:vPayload, :vTimetaken)')
 
-#insertSql = ('insert into ACTIVITY_STREAM '
-#        'values(:vinstanceId,:vTotalTimeTaken,:vTimestamp,:vMessage, :vTimetaken)')
+insertSql = ('insert into ACTIVITY_STREAM '
+        'values(:vinstanceId,:vTotalTimeTaken,:vTimestamp,:vMessage, :vTimetaken)')
 
-#updateSql = ('update ACTIVITY_STREAM set TOTAL_TIME_TAKEN=:vTotalTimeTaken where INSTANCE_ID=:vinstanceId')
+updateSql = ('update ACTIVITY_STREAM set TOTAL_TIME_TAKEN=:vTotalTimeTaken where INSTANCE_ID=:vinstanceId')
 
                 
 for instance in instanceArray:    
@@ -72,25 +72,26 @@ for instance in instanceArray:
     response = requests.get(url, headers=my_headers)        
     data = response.json()
     mylists = data['ascList']
-        
-    
-    for list in mylists:        
-        date_time_str = list['timestamp']    
-        
-        if (i ==0) :    
-            printArray.append(list['timestamp'] + "|" + list['message'].strip('\n').replace('\n', '') + "|0")
-#            cursor.execute(insertSql, [instance, 0, list['timestamp'], list['message'].strip('\n').replace('\n', ''), 0])
-        else :        
-            diff = datetime.datetime.strptime(date_time_str, datetimeFormat)\
-                   - datetime.datetime.strptime(previous_date_time_str, datetimeFormat)
-            diffInMillSeconds = diff.microseconds/1000
-            totalTimeTaken = diffInMillSeconds + totalTimeTaken
-            printArray.append(list['timestamp'] + "|" + list['message'].strip('\n').replace('\n', '') + "|" + str(diffInMillSeconds))
-#            cursor.execute(insertSql, [instance, 0, list['timestamp'], list['message'].strip('\n').replace('\n', ''), str(diffInMillSeconds)])
+    #ischild=true is an internal timing pull from logs whereby lgos where be gone to caculate each internal steps
+    #So w eonly take isChild=false which is from databsae.	
+    for list in mylists:         
+        if (list['isChild'] == False) :                    
+            date_time_str = list['timestamp']    
+            
+            if (i ==0) :    
+                printArray.append(list['timestamp'] + "|" + list['message'].strip('\n').replace('\n', '') + "|0")
+#                cursor.execute(insertSql, [instance, 0, list['timestamp'], list['message'].strip('\n').replace('\n', ''), 0])
+            else :        
+                diff = datetime.datetime.strptime(date_time_str, datetimeFormat)\
+                       - datetime.datetime.strptime(previous_date_time_str, datetimeFormat)
+                diffInMillSeconds = diff.microseconds/1000
+                totalTimeTaken = diffInMillSeconds + totalTimeTaken
+                printArray.append(list['timestamp'] + "|" + list['message'].strip('\n').replace('\n', '') + "|" + str(diffInMillSeconds))
+#                cursor.execute(insertSql, [instance, 0, list['timestamp'], list['message'].strip('\n').replace('\n', ''), str(diffInMillSeconds)])
            
-        i = i + 1
-        previous_date_time_str = date_time_str
-        
+            i = i + 1
+            previous_date_time_str = date_time_str
+    
 
     for row in printArray:            
         with open('timetaken.csv','a') as fd:            
