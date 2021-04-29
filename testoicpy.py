@@ -39,6 +39,7 @@ printArray = []
 with open('timetaken.csv','a') as fd:            
     fd.write("Instance Id|Total Time taken(millseconds)|Timestamp|Message|Time  Taken" + "\n")
 
+#use json db so we can massaging the "PAYLOAD" to do caculation in bulk.
 #Open connection to json db in cloud
 #Refer to https://www.oracle.com/database/technologies/appdev/python/quickstartpython.html#copy
 #CREATE TABLE "ADMIN"."ACTIVITY_STREAM" 
